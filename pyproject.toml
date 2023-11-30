@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo-python-update-dns-cloudflare"
+version = "0.1.0"
+description = ""
+authors = ["natthasath <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_update_dns_cloudflare"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
